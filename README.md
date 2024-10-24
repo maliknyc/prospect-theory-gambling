@@ -1,7 +1,7 @@
 ## Proposed Quasi-CRRA Value Function 
 
 $$
-U(w) =
+V(w) =
 \begin{cases} 
 \frac{(1 + w)^{1 - \gamma_G} - 1}{1 - \gamma_G} & \text{if } w \geq 0 \text{ and } \gamma_G \neq 1 \\
 \ln(1 + w) & \text{if } w \geq 0 \text{ and } \gamma_G = 1 \\
@@ -12,5 +12,6 @@ $$
 
 Where:
 - \( w \) is wealth.
-- \( γ \) is the relative risk aversion coefficient.
+- \( $$γ_G$$ \) is the relative risk aversion coefficient in gains.
+- \( $$γ_L$$ \) is the relative risk aversion coefficient in losses.
 - \( λ \) is the loss aversion coefficient.
