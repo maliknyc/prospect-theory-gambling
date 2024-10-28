@@ -1,4 +1,4 @@
-## Proposed Shifted-CRRA Value Function 
+## Shifted-CRRA Value Function 
 
 $$
 V(w) =
