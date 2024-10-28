@@ -72,7 +72,7 @@ for X1_value in X1_list:
 #print(X2_table)
 
 # export X2 Table to a CSV!
-X2_table.to_csv('X2_table.csv', index=True)
+X2_table.to_csv('X2_table_CRRA_shifted.csv', index=True)
 
 
 
