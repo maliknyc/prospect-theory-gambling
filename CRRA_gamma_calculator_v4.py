@@ -77,4 +77,4 @@ for X1_value in X1_list:
 # print(X2_table)
 
 
-X2_table.to_csv('X2_table_CRRA.csv', index=True)
+#X2_table.to_csv('X2_table_CRRA.csv', index=True)
