@@ -34,7 +34,7 @@ def solve_for_X2(gamma, sure_amount, X1, p1, p2, W0):
 gamma_list = [round(0 + 0.1 * i, 1) for i in range(31)]  # gamma from 0.0 to 3.0 in steps of 0.1
 sure_amount = 150
 X1 = 300
-p1 = 0.5 # probability of gain prospeect
+p1 = 1/math.exp(1) # probability of gain prospeect
 p2 = 1 - p1
 W0 = 1000 # starting wealth
 
@@ -77,4 +77,4 @@ for X1_value in X1_list:
 # print(X2_table)
 
 
-#X2_table.to_csv('X2_table_CRRA.csv', index=True)
+X2_table.to_csv('X2_table_CRRA_.csv', index=True)
